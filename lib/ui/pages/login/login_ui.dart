@@ -76,6 +76,7 @@ class _LoginPageState extends State<LoginPage> {
       ),
       bottomNavigationBar: LoginGoogleButton(
         onPressed: () {
+          //Hey everytime i try running this code i seem not able to login with goole.
           context.read<AuthCubit>().signInWithGoogle();
         },
       ),
